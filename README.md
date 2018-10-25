@@ -2,5 +2,5 @@
 
 Para instalar los módulos
 ```
-npm init
+npm install
 ```
