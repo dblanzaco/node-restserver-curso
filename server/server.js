@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 //Configuración global de rutas
-app.use(require('./routes-controllers/index'));
+app.use(require('./routes/index'));
 
 //Habilitar la carpeta public, para acceso Web
 app.use(express.static(path.resolve(__dirname, '../public')));
